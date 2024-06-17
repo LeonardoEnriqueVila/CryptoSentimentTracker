@@ -1,0 +1,4 @@
+# Crypto Sentiment Analysis
+
+This project is a basic and functional script that takes data from a google sheet. The data in that document is taken with zapier, wich automatically sends title, description and date of every new article published in cointelegraph website. The scripts takes that data and uses TexBlob to analyze its sentiment. 
+The use of a better model to analyze the data that understands the slang in the crypto world would be more effective to analyze it. However, the idea of this project was to focus more on the automation and getting the data needed and not so much in the analysis of that data. TextBlox provides an output of its undestanding of the sentiment in the titles and descriptions of the posts published in the cointelegraph website. 
